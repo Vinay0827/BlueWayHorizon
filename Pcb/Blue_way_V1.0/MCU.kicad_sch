@@ -4,5 +4,12 @@
 	(generator_version "9.0")
 	(uuid "92839ef6-bf93-42df-a858-b0c9cd5dfa0f")
 	(paper "A4")
+	(title_block
+		(title "Avionics Subsystem")
+		(date "2026-03-05")
+		(rev "0.0.1")
+		(company "BlueWay Horizon")
+		(comment 1 "www.bluewayhorizon.in")
+	)
 	(lib_symbols)
 )

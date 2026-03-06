@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Adafruit_BNO08x")(type "KiCad")(uri "$(KIPRJMOD)/Adafruit_BNO08x.pretty")(options "")(descr ""))
+)

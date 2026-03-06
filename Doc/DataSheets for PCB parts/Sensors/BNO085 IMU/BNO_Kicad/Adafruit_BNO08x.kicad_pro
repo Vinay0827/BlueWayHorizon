@@ -54,6 +54,7 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
+        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -117,9 +118,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2032,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.025,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -451,14 +452,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Blue_way_V1.0.kicad_pro",
+    "filename": "Adafruit_BNO08x.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.2032,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -467,11 +468,47 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
+        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "highpower",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "lowpower",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "via_diameter": 0.889,
+        "via_drill": 0.4826,
         "wire_width": 6
       }
     ],
@@ -480,7 +517,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "lowpower",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "lowpower",
+        "pattern": "3.3V"
+      },
+      {
+        "netclass": "lowpower",
+        "pattern": "VCC"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -597,7 +647,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -611,28 +661,8 @@
   },
   "sheets": [
     [
-      "2f3247fa-a7e8-4139-878f-1aed25c1e4d8",
+      "e30c25fc-8ef6-409b-96ac-9b364655d0d3",
       "Root"
-    ],
-    [
-      "561d6962-7192-45f3-ac78-f1c921547bdd",
-      "Power Subsystem"
-    ],
-    [
-      "ee292bef-5a0b-425c-b5b9-b0e8302821ef",
-      "Control Unit"
-    ],
-    [
-      "7dab7a21-a5d5-4af2-99e9-1daf90182840",
-      "Sensor Subsystem"
-    ],
-    [
-      "7fa6ef80-38f6-41bf-8de1-9a606d86a87a",
-      "Communication Subsystem"
-    ],
-    [
-      "181386e5-10e9-4c7a-bc71-286646d180c9",
-      "BNO085"
     ]
   ],
   "text_variables": {}
