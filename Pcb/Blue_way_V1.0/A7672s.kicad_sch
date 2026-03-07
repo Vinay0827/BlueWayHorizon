@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a7d5be2e-94d6-4180-8b74-157ea3d48d1b")
+	(paper "A4")
+	(title_block
+		(title "Avionics Subsystem")
+		(date "2026-03-05")
+		(rev "0.0.1")
+		(company "BlueWay Horizon")
+		(comment 1 "www.bluewayhorizon.in")
+	)
+	(lib_symbols)
+)

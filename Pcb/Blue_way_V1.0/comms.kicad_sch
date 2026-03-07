@@ -12,4 +12,88 @@
 		(comment 1 "www.bluewayhorizon.in")
 	)
 	(lib_symbols)
+	(sheet
+		(at 50.8 50.8)
+		(size 76.2 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c8f7441-ead3-49dd-ad0c-92ab68393f4b")
+		(property "Sheetname" "GPS_GNSS"
+			(at 50.8 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "A7672s.kicad_sch"
+			(at 50.8 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Blue_way_V1.0"
+				(path "/2f3247fa-a7e8-4139-878f-1aed25c1e4d8/7fa6ef80-38f6-41bf-8de1-9a606d86a87a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 50.8)
+		(size 76.2 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a86b49f4-f0e6-45a4-9583-e4d293dc61b3")
+		(property "Sheetname" "LoRaComm"
+			(at 152.4 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "E22_900M30S.kicad_sch"
+			(at 152.4 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Blue_way_V1.0"
+				(path "/2f3247fa-a7e8-4139-878f-1aed25c1e4d8/7fa6ef80-38f6-41bf-8de1-9a606d86a87a"
+					(page "10")
+				)
+			)
+		)
+	)
 )

@@ -12,6 +12,39 @@
 		(comment 1 "www.bluewayhorizon.in")
 	)
 	(lib_symbols)
+	(text "NOTE : PDN Network and DeCAP  are yet to be done\nRemove this note When above is done !!"
+		(exclude_from_sim no)
+		(at 68.58 187.96 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "bf016c92-9367-405a-b695-7883e879f704")
+	)
+	(wire
+		(pts
+			(xy 66.04 31.75) (xy 76.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcc8c11-68f5-4513-ae3d-d052933859a5")
+	)
+	(hierarchical_label "SHT_SDA"
+		(shape input)
+		(at 66.04 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85aa57c5-844a-4fbd-862e-dfef31de7a15")
+	)
 	(sheet
 		(at 25.4 25.4)
 		(size 25.4 25.4)
@@ -140,6 +173,160 @@
 			(project "Blue_way_V1.0"
 				(path "/2f3247fa-a7e8-4139-878f-1aed25c1e4d8/7dab7a21-a5d5-4af2-99e9-1daf90182840"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58c04151-7d67-47cb-8c8b-e34925476c2b")
+		(property "Sheetname" "BMP Altimeter"
+			(at 127 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMP390.kicad_sch"
+			(at 127 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BMP390_SDI/SDA" input
+			(at 127 27.94 180)
+			(uuid "ac8303bb-dbeb-47e6-bcdd-46b8a465ed12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMP390_CS" input
+			(at 127 31.75 180)
+			(uuid "b33ee6fb-ed60-4fdd-ad98-e53f35a543fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMP390_SCK/SCL" input
+			(at 127 35.56 180)
+			(uuid "4b2f8e0f-297e-4ffa-8964-2a2df50de042")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMP390_INT" input
+			(at 127 40.64 180)
+			(uuid "659b2920-42c9-4659-aade-58a13e607f49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMP390_SDO/ADR" input
+			(at 127 45.72 180)
+			(uuid "0b62c38d-786f-4065-a302-e6f021d9fb15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Blue_way_V1.0"
+				(path "/2f3247fa-a7e8-4139-878f-1aed25c1e4d8/7dab7a21-a5d5-4af2-99e9-1daf90182840"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e486cc55-af0d-4583-adb7-63441ed9acff")
+		(property "Sheetname" "Temperature And Humidity Sensor"
+			(at 76.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SHTC3.kicad_sch"
+			(at 76.2 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SHT_SDA" input
+			(at 76.2 31.75 180)
+			(uuid "25ccb4eb-f949-4c77-b68a-531bbc374da8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SHT_SCL" input
+			(at 76.2 45.72 180)
+			(uuid "0a107875-9f44-49e6-9259-1a776515d16a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Blue_way_V1.0"
+				(path "/2f3247fa-a7e8-4139-878f-1aed25c1e4d8/7dab7a21-a5d5-4af2-99e9-1daf90182840"
+					(page "7")
 				)
 			)
 		)

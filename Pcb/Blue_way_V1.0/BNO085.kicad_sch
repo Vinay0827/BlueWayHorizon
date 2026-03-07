@@ -7642,7 +7642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6ccfbe6-72b6-4021-abea-b237e3c2cd67")
-		(property "Reference" "D1"
+		(property "Reference" "BNO_085"
 			(at 149.86 130.7464 90)
 			(effects
 				(font
@@ -7705,7 +7705,7 @@
 		(instances
 			(project ""
 				(path "/2f3247fa-a7e8-4139-878f-1aed25c1e4d8/7dab7a21-a5d5-4af2-99e9-1daf90182840/181386e5-10e9-4c7a-bc71-286646d180c9"
-					(reference "D1")
+					(reference "BNO_085")
 					(unit 1)
 				)
 			)
